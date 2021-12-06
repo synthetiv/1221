@@ -28,7 +28,7 @@
 	], 0.3).distort * -6.dbamp;
 	bd = RLPF.ar(bd, 130 + EnvGen.ar(Env.perc(0.01, 3), bdTrig).lincurve(0, 1, 0, 2900, 3), 0.8);
 
-	bd + ((hh + str) ! 2) * -18.dbamp;
+	bd + ((hh + str) ! 2) * -3.dbamp;
 }
 .play;
 
