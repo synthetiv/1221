@@ -1,5 +1,3 @@
-s.boot;
-
 b = Buffer.alloc(s, 48000, 2);
 
 (
